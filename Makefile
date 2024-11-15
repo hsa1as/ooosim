@@ -5,10 +5,10 @@ WARN = -Wall
 CFLAGS = $(OPT) $(WARN) $(INC) $(LIB)
 
 # List all your .cc files here (source files, excluding header files)
-SIM_SRC = proj_tomasulo.cpp
+SIM_SRC = main.cc cpu.cc 
 
 # List corresponding compiled object files here (.o files)
-SIM_OBJ = proj_tomasulo.o
+SIM_OBJ = main.o cpu.o 
  
 #################################
 
